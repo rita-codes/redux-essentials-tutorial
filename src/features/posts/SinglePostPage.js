@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { PostAuthor } from './PostAuthor'
 import { ReactionButtons } from './ReactionButtons'
 import { TimeAgo } from './TimeAgo'
-import { selectPostById } from './postsSlice'
+import { selectPostById } from './PostsSlice'
 
 export const SinglePostPage = ({ match }) => {
   const { postId } = match.params
